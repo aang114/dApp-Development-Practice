@@ -18,7 +18,7 @@ Provide 3 unique implementations of the following function.
 
 ### Solution
 
-In the file `/problem1/sumToN.js` there are 3 unique functions that you can use to sum to `n`. They are: 
+In the file `/src/problem1/sumToN.js` there are 3 unique functions that you can use to sum to `n`. They are: 
 
 1. `sum_to_n_a`
 2. `sum_to_n_b`
@@ -55,7 +55,7 @@ The Web App (Frontend Only) that was implemented (using React) has the following
 To open the Web App (Frontend Only), do the following: 
 
 1. Open a terminal window
-2. Change the directory of your terminal to the directory of  `problem2`
+2. Change the directory of your terminal to the directory of  `/src/problem2`
 3. Type `npm install` in your terminal to download all the Node Modules required for the Web App
 4. Type `npm start` in your terminal to open the Web App
 
@@ -101,7 +101,7 @@ Mid price for ETHUSD is 373.555 USD.
 
 ### Solution
 
-The Datasource utility class can be imported from the file `/problem3/datasource.js` 
+The Datasource utility class can be imported from the file `/src/problem3/datasource.js` 
 
 ## Problem 4: Interacting with Chain
 
@@ -130,10 +130,10 @@ The output should be organized as one `address amount` per line.
 
 > Make sure you have NodeJS installed on your computer before following the instructions below
 
-The script implemented is  `/problem4/retrieve-holders.ts`. To run the script, do the following:
+The script implemented is  `/src/problem4/retrieve-holders.ts`. To run the script, do the following:
 
 1. Open a terminal window
-2. Change the directory of your terminal to the directory of  `problem4`
+2. Change the directory of your terminal to the directory of  `/src/problem4`
 3. Type `npm install` in your terminal to download all the Node Modules required to run the script
 4. Type `ts-node ./retrieve-holders.ts` in your terminal to run the script
 
@@ -151,10 +151,10 @@ Deploy a utility EVM contract with a function to retrieve all token balances giv
 
 > Don't forget to add your Secret Recovery Phrase (i.e your mnemoic phrase) in the file `/project5/.secret` before you deploy the smart contract.
 
-The Solidity smart contract file is `/problem5/contracts/UtilityContract.sol`. To deploy it onto the Ethereum Blockchain (Mainnet), do the following:
+The Solidity smart contract file is `/src/problem5/contracts/UtilityContract.sol`. To deploy it onto the Ethereum Blockchain (Mainnet), do the following:
 
 1. Open a terminal window
-2. Change the directory of your terminal to the directory of  `problem5`
+2. Change the directory of your terminal to the directory of  `/src/problem5`
 3. Type `truffle migrate --network mainnet` in your terminal to deploy `UtilityContract.sol` (and `Migration.sol`) onto the Ethereum Blockchain
 
 
